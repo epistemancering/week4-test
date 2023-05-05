@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #hide {display: none}
+    </style>
+    <title>Back End Assessment</title>
+  </head>
+
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    <button id = "fortune">
+      Get a fortune
+    </button>
+    <br>
+    <br>
+    <form id = "addForm">
+      <label>
+        What steps will help you to accomplish your goals?
+        <br>
+        <input id = "addInput">
+        </input>
+      </label>
+      <button>
+        Add
+      </button>
+    </form>
+    <div id = "hide">
+      <ol>
+      </ol>
+      <form id = "rewriteForm">
+        <select id = "rewriteList">
+        </select>
+        <input id = "rewriteInput">
+        </input>
+        <button>
+          Rewrite
+        </button>
+      </form>
+      <br>
+      <select id = "removeList">
+      </select>
+      <button id = "removeButton">
+        Remove
+      </button>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
